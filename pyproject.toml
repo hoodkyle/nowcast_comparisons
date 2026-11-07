@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retail-nowcast-replication"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "threadpoolctl", "torch", "catboost", "xgboost"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["retail_nowcast*"]
+
+[tool.setuptools.package-data]
+retail_nowcast = ["state_crosswalk.csv"]

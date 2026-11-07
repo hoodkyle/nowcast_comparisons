@@ -1,0 +1,147 @@
+{
+  "data_coverage": {
+    "headers": [
+      "Source",
+      "History",
+      "Geography",
+      "Category coverage"
+    ],
+    "rows": [
+      [
+        "MSRS",
+        "Jan. 2019--May 2026",
+        "50 states and DC",
+        "Total excluding nonstore; 441--448, 451--453"
+      ],
+      [
+        "Fiserv",
+        "Mar. 2010--Mar. 2024",
+        "50 states and DC",
+        "53 native groups; aligned 442--448, 451--453, and 4413"
+      ],
+      [
+        "Gamma",
+        "Jan. 2016--Jul. 2026",
+        "50 states and DC",
+        "312 native groups; mapped 441--448 and 451--453"
+      ]
+    ],
+    "notes": "Source histories refer to the study files. Private-source dates refer to monthly spending levels; July 2026 is partial and is not used in estimation. Category codes are NAICS."
+  },
+  "information_timing": {
+    "headers": [
+      "Series",
+      "Information date t",
+      "Information date t-1"
+    ],
+    "rows": [
+      [
+        "Private transaction measures",
+        "t",
+        "t-1"
+      ],
+      [
+        "MSRS",
+        "t-1",
+        "t-2"
+      ],
+      [
+        "National MARTS",
+        "t-1",
+        "t-2"
+      ],
+      [
+        "National MRTS",
+        "t-2",
+        "t-3"
+      ]
+    ],
+    "notes": "Latest reference months in consecutive information sets. Current MSRS is excluded. Availability is assumed using current snapshots."
+  },
+  "timing_information": {
+    "headers": [
+      "Stage",
+      "Private measures",
+      "MARTS",
+      "MRTS",
+      "MSRS"
+    ],
+    "rows": [
+      [
+        "Early information",
+        "t",
+        "t-1",
+        "t-2",
+        "through t-1"
+      ],
+      [
+        "Current MARTS added",
+        "t",
+        "t-1 and t",
+        "t-2",
+        "through t-1"
+      ],
+      [
+        "Current MRTS also added",
+        "t",
+        "t-1 and t",
+        "t-2 and t",
+        "through t-1"
+      ]
+    ],
+    "notes": "Later stages retain lagged indicators and add current national indicators. The own-target lagged growth and change remain available."
+  },
+  "computing_environment": {
+    "headers": [
+      "Component",
+      "Recorded version or device"
+    ],
+    "rows": [
+      [
+        "Operating system",
+        "Linux x86_64, kernel 6.17.9-76061709-generic"
+      ],
+      [
+        "CPU",
+        "AMD Ryzen 7 9700X (8 cores, 3.8 GHz)"
+      ],
+      [
+        "Memory",
+        "32 GB DDR5-6000 RAM (2 x 16 GB, dual channel)"
+      ],
+      [
+        "C library",
+        "glibc 2.39"
+      ],
+      [
+        "Python",
+        "3.12.14 (conda-forge; GCC 14.4.0)"
+      ],
+      [
+        "NumPy / pandas",
+        "2.5.2 / 3.0.5"
+      ],
+      [
+        "SciPy / scikit-learn",
+        "1.18.1 / 1.9.0"
+      ],
+      [
+        "PyTorch",
+        "2.11.0+cu130"
+      ],
+      [
+        "CatBoost / XGBoost",
+        "1.2.10 / 3.4.1"
+      ],
+      [
+        "CUDA",
+        "13.0"
+      ],
+      [
+        "GPU",
+        "NVIDIA GeForce RTX 5060 Ti"
+      ]
+    ],
+    "notes": "Recorded computing environment for the reported estimates. CPU and memory describe the study machine; they are not minimum hardware requirements."
+  }
+}

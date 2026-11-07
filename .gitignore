@@ -1,0 +1,48 @@
+# Credentials and source observations remain local.
+.env
+.env.*
+data/raw/
+data/processed/
+
+# Estimation outputs may contain restricted observations.
+output/
+results/
+cache/
+calibration/
+fits/
+predictions/
+checkpoints/
+tensors/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.parquet
+
+# Local Python artifacts.
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Manuscript sources, reference archives, and generated documents.
+paper/
+*.zip
+*.tex
+*.bib
+*.sty
+*.cls
+*.bst
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

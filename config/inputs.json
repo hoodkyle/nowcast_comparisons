@@ -1,0 +1,12 @@
+{
+  "files": {
+    "data/raw/msrs/state_retail_yy.csv": "0b9ee216526e68c6d59d6cb2619e531b73651d49378940d0c662ee9d4843f8e9",
+    "data/processed/information_vintages/state_factor_panel_v1.csv.gz": "8ab46a6370cd53414a823bfdcd32bc90524bb6dcdec220f6e599c83dc5725ad0",
+    "data/processed/information_vintages/industry_factor_panel_v1.csv.gz": "f14a4165b8c9cb7eff69c20ff3d7f2271ebd0afb77158c723e337524646efadb",
+    "data/processed/information_vintages/state_factor_panel_v2.csv.gz": "573709ca353cc85365b4eadec3b4b568fae4bc94ccefb77a2e3427da020b1125",
+    "data/processed/information_vintages/industry_factor_panel_v2.csv.gz": "9a7265c2069e2f58eee5273ed757ce39cf0e2dfa9dc92f3ee7ef4f5e3e87e70d",
+    "data/processed/information_vintages/state_factor_panel_v3.csv.gz": "59b0db8cc258980327cad200d0b2363e9a37ff021b4643ba3e1de9018504acf1",
+    "data/processed/information_vintages/industry_factor_panel_v3.csv.gz": "f0dc1b7666c792e36a77ef8e2ad739790a9f03144cdcafebf0dfcf3404057470"
+  },
+  "missing_values": "retain missing observations; exact calendar lags only"
+}

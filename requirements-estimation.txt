@@ -1,0 +1,8 @@
+-r requirements-tables.txt
+scipy==1.18.1
+scikit-learn==1.9.0
+threadpoolctl
+# Use the CUDA-enabled build corresponding to the recorded environment.
+torch==2.11.0
+catboost==1.2.10
+xgboost==3.4.1

@@ -1,0 +1,13 @@
+{
+  "description": "Aggregate forecast errors and coverage for the reported comparisons. No individual observations or forecasts are distributed.",
+  "files": {
+    "main.csv": "77c8e000d850ab6ed280aa06931fda6183939ee2785ee440a9c7257eea6c819a",
+    "replacement_categories.csv": "f1a8b498a54be7499c17254ea4d976f5b716326b14c7c73368ba26e7f100da7e",
+    "replacement_monthly.csv": "720d3bd1c96a54730fbed6ff84ffb8b46bb92b0ac4cf7ce2a12dde355521cc0b",
+    "neural_seeds.csv": "d7ca73e66ac42c8679072a54d34c419e8c649fc957a4f59c32b3e1316c802756",
+    "local_ridge.csv": "10c39a863c5c01d16344dc7ffcba988ee6472d7f205461695c2d3371b4841e9b",
+    "replacement_coverage.csv": "cd378f38452706cc1936c42a46b49a0689a7b3020660cf5402ce84d815624054",
+    "timing.csv": "2eeff02a31e5f916c14a5622b5f9264883cc8f9998f3998dccc7cd2c27a4b0a6",
+    "coverage.csv": "0fa1b8311aae627bc733d2efbd2f8b52c6423be2d1d680c5a939904c81c26a81"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "data_coverage": {
+    "caption": "Historical coverage of the target and private transaction sources",
+    "label": "tab:data-coverage",
+    "inputs": [],
+    "outputs": [
+      "data_coverage.csv",
+      "data_coverage.tex"
+    ]
+  },
+  "information_timing": {
+    "caption": "Assumed information availability at consecutive nowcast dates",
+    "label": "tab:information-timing",
+    "inputs": [],
+    "outputs": [
+      "information_timing.csv",
+      "information_timing.tex"
+    ]
+  },
+  "timing_information": {
+    "caption": "Information sets in the timing comparison",
+    "label": "tab:timing-information",
+    "inputs": [],
+    "outputs": [
+      "timing_information.csv",
+      "timing_information.tex"
+    ]
+  },
+  "main_headline": {
+    "caption": "Selected nowcast specifications: state total-retail accuracy",
+    "label": "tab:main-headline",
+    "inputs": [
+      "main.csv"
+    ],
+    "outputs": [
+      "main_headline.csv",
+      "main_headline.tex"
+    ]
+  },
+  "main_categories": {
+    "caption": "Nowcast RMSE by retail subsector",
+    "label": "tab:main-categories",
+    "inputs": [
+      "main.csv"
+    ],
+    "outputs": [
+      "main_categories.csv",
+      "main_categories.tex"
+    ]
+  },
+  "neural_seed_summary": {
+    "caption": "Neural forecast averaging: state total-retail accuracy",
+    "label": "tab:neural-seeds",
+    "inputs": [
+      "main.csv",
+      "neural_seeds.csv"
+    ],
+    "outputs": [
+      "neural_seed_summary.csv",
+      "neural_seed_summary.tex"
+    ]
+  },
+  "source_replacement_accuracy": {
+    "caption": "Forecast accuracy under an assumed April 2023 source replacement",
+    "label": "tab:source-replacement-accuracy",
+    "inputs": [
+      "replacement_categories.csv",
+      "replacement_monthly.csv"
+    ],
+    "outputs": [
+      "source_replacement_accuracy.csv",
+      "source_replacement_accuracy.tex"
+    ]
+  },
+  "source_replacement_gains": {
+    "caption": "Forecast error reductions under alternative transaction-source choices",
+    "label": "tab:source-replacement-gains",
+    "inputs": [
+      "replacement_categories.csv",
+      "replacement_monthly.csv"
+    ],
+    "outputs": [
+      "source_replacement_gains.csv",
+      "source_replacement_gains.tex"
+    ]
+  },
+  "timing_accuracy": {
+    "caption": "Single-month CatBoost accuracy as national information becomes available",
+    "label": "tab:timing-accuracy",
+    "inputs": [
+      "timing.csv"
+    ],
+    "outputs": [
+      "timing_accuracy.csv",
+      "timing_accuracy.tex"
+    ]
+  },
+  "timing_gains": {
+    "caption": "Incremental accuracy gains from additional national information",
+    "label": "tab:timing-gains",
+    "inputs": [
+      "timing.csv"
+    ],
+    "outputs": [
+      "timing_gains.csv",
+      "timing_gains.tex"
+    ]
+  },
+  "main_full_comparison": {
+    "caption": "Full nowcast comparison: total retail and mean category accuracy",
+    "label": "tab:main-full",
+    "inputs": [
+      "main.csv"
+    ],
+    "outputs": [
+      "main_full_comparison.csv",
+      "main_full_comparison.tex"
+    ]
+  },
+  "main_coverage": {
+    "caption": "Common evaluation-sample coverage",
+    "label": "tab:main-coverage",
+    "inputs": [
+      "coverage.csv"
+    ],
+    "outputs": [
+      "main_coverage.csv",
+      "main_coverage.tex"
+    ]
+  },
+  "main_pooled": {
+    "caption": "Full nowcast comparison: pooled category accuracy",
+    "label": "tab:main-pooled",
+    "inputs": [
+      "main.csv"
+    ],
+    "outputs": [
+      "main_pooled.csv",
+      "main_pooled.tex"
+    ]
+  },
+  "main_category_rmse_detail": {
+    "caption": "Full nowcast comparison: category RMSE",
+    "label": "tab:main-category-rmse",
+    "inputs": [
+      "main.csv"
+    ],
+    "outputs": [
+      "main_category_rmse_detail.csv",
+      "main_category_rmse_detail.tex"
+    ]
+  },
+  "main_category_mae_detail": {
+    "caption": "Full nowcast comparison: category MAE",
+    "label": "tab:main-category-mae",
+    "inputs": [
+      "main.csv"
+    ],
+    "outputs": [
+      "main_category_mae_detail.csv",
+      "main_category_mae_detail.tex"
+    ]
+  },
+  "neural_seed_detail": {
+    "caption": "Neural estimation variability and forecast averaging by target",
+    "label": "tab:neural-seed-detail",
+    "inputs": [
+      "main.csv",
+      "neural_seeds.csv"
+    ],
+    "outputs": [
+      "neural_seed_detail.csv",
+      "neural_seed_detail.tex"
+    ]
+  },
+  "local_ridge_training_sample": {
+    "caption": "Local lag ridge under alternative estimation-sample restrictions",
+    "label": "tab:local-ridge-sample",
+    "inputs": [
+      "main.csv",
+      "local_ridge.csv"
+    ],
+    "outputs": [
+      "local_ridge_training_sample.csv",
+      "local_ridge_training_sample.tex"
+    ]
+  },
+  "source_replacement_categories": {
+    "caption": "Source-replacement forecast accuracy by retail target",
+    "label": "tab:source-replacement-categories",
+    "inputs": [
+      "replacement_categories.csv",
+      "replacement_monthly.csv"
+    ],
+    "outputs": [
+      "source_replacement_categories.csv",
+      "source_replacement_categories.tex"
+    ]
+  },
+  "source_replacement_monthly": {
+    "caption": "Monthly total-retail forecast accuracy under alternative source choices",
+    "label": "tab:source-replacement-monthly",
+    "inputs": [
+      "replacement_categories.csv",
+      "replacement_monthly.csv"
+    ],
+    "outputs": [
+      "source_replacement_monthly.csv",
+      "source_replacement_monthly.tex"
+    ]
+  },
+  "mrts_lag_comparison": {
+    "caption": "Sensitivity to the assumed MRTS information lag",
+    "label": "tab:mrts-lag-comparison",
+    "command": "mrts-lag-tables",
+    "inputs": [
+      "mrts_lag.csv"
+    ],
+    "results_directory": "summaries/mrts_lag",
+    "outputs": [
+      "mrts_lag_comparison.csv",
+      "mrts_lag_comparison.tex"
+    ]
+  },
+  "computing_environment": {
+    "caption": "Computing environment",
+    "label": "tab:computing-environment",
+    "inputs": [],
+    "outputs": [
+      "computing_environment.csv",
+      "computing_environment.tex"
+    ]
+  }
+}
